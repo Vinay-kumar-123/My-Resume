@@ -1,0 +1,142 @@
+body,html {
+  margin: 0;
+  padding: 0;
+}
+.some {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  color: #40514e;
+  text-align: center;
+  font-family: "merriweather", serif;
+  height: 100vh;
+}
+.top-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e4f9f5;
+
+} 
+.image {
+  background-color: #e4f9f5;
+  height: 100vh;
+
+}
+.image1 {
+  height: 800px;
+  width: 800px;
+  border-radius: 50%;
+  border: 2px solid #00bfff;
+  margin-top: 200px;
+}
+.image1:hover {
+  transform: scale(1.1);
+  border-radius: 5%;
+  color: #00bfff;
+}
+h1 {
+  color: hsl(180, 41%, 57%);
+  font-size: 6.625rem;
+  padding-top: 50px;
+
+}
+h2 {
+  color: #66bfbf;
+  font-size: 4rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  animation: gradient-animation 18s ease infinite;
+  padding: 1opx 0;
+  height: 150px;
+
+}
+.nav-bar a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 5rem;
+  color: black;
+}
+.nav-bar a:hover {
+  color: #66bfbf;
+  text-decoration: underline;
+
+}
+.bottom-cloud {
+  height: 500px;
+  right: 20px;
+  bottom: 10px;
+  padding-right: 500px;
+
+}
+.top-cloud {
+  top: 10px;
+  left: 20px;
+  height: 100px;
+}
+.company {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 200px;
+}
+.linkedin {
+  height: 100px;
+  text-decoration: none;
+}
+.github {
+  height: 150px;
+  text-decoration: none;
+  
+}
+.leetcode {
+  height: 200px;
+  text-decoration: none;
+}
+.link:hover {
+  color: green;
+  transform: scale(1.1);
+}
+.linkedin:hover{
+  color: red;
+  transform: scale(1.1);
+}
+.github:hover {
+  color: #c7088e;
+  transform: scale(1.1);
+}
+.leetcode:hover {
+  color: aqua;
+  transform: scale(1.1);
+}
+.company:hover{
+  color: #912011;
+  transform: scale(1.1);
+
+}
+.about {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 250px;
+}
+.c {
+  text-decoration: none;
+}
+.html {
+  text-decoration: none;
+}
+.c:hover {
+  color: green;
+}
+.html:hover {
+  color: red;
+}
