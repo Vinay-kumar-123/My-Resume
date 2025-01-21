@@ -1,8 +1,14 @@
 body,html {
+  background-color: #000000;  
+  font-family: Arial, sans-serif;
+  color: #333333;  
   margin: 0;
   padding: 0;
+  background: linear-gradient(45deg, #141414, #556668, #662339);  
+  animation: gradientAnimation 10s ease infinite;
+  transition: background 2s ease-in-out;
 }
-.some {
+.main-header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -19,11 +25,9 @@ body,html {
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: #e4f9f5;
 
 } 
 .image {
-  background-color: #e4f9f5;
   height: 100vh;
 
 }
@@ -54,18 +58,17 @@ h2 {
 }
 .nav-bar {
   display: flex;
-  justify-content: space-evenly;
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
-  animation: gradient-animation 18s ease infinite;
+  justify-content: end;
   padding: 10px 0;
   height: 100px;
-
 }
 .nav-bar a {
+  margin-right: 20px;
+  font-size: 20px;
   text-decoration: none;
-  color: black;
+  color: white;
   word-spacing: 10px;
-  font-size: 1.5rem;
+  
 }
 .nav-bar a:hover {
   color: #66bfbf;
